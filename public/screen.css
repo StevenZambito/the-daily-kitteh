@@ -9,4 +9,92 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(226, 244, 245);
+  font-family: Verdana;
+  line-height: 1.25rem;
+  font-weight: 2;
+}
+
+header {
+  color: rgb(74, 95, 114);
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, Times, Serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+h2 {
+  color: rgb(73, 94, 112);
+}
+
+#nav-bar {
+  background-color: rgb(17, 199, 218);
+  color: rgb(254, 254, 255);
+}
+
+header li,
+footer li {
+  text-decoration: underline;
+  list-style: none;
+}
+
+img {
+  width: 10rem;
+}
+
+.kitty-day {
+  border: 0.1rem solid rgb(17, 199, 218);
+}
+
+.kitty-day h2 {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+nav li + li {
+  margin-left: 2rem;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  /* border: red solid; */
+  margin: 0rem 13rem 0rem 13rem;
+}
+
+.kitty-day {
+  /* border: solid green; */
+  padding: 0.3rem;
+}
+
+.busy-kitty {
+  /* border: solid pink; */
+  margin-left: 2rem;
+}
+
+footer ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+footer li + li {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: rgb(213, 213, 213);
+  padding: 1rem;
 }
