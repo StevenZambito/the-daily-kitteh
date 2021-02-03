@@ -69,17 +69,14 @@ nav li + li {
 .wrapper {
   display: flex;
   flex-direction: row;
-  /* border: red solid; */
   margin: 0rem 13rem 0rem 13rem;
 }
 
 .kitty-day {
-  /* border: solid green; */
   padding: 0.3rem;
 }
 
 .busy-kitty {
-  /* border: solid pink; */
   margin-left: 2rem;
 }
 
